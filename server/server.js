@@ -10,7 +10,7 @@ const app = express();
 // Tell express where to find our "public" files.
     // aka "the client-side" files
     // aka "all the stuff we've been doing already"
-app.use(express.static('.server/public'));
+app.use(express.static('./server/public'));
 
 // Starts server and listens for requests:
 app.listen(5000, function(){
